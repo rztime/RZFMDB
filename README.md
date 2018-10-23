@@ -6,7 +6,9 @@
 
 
 ### 使用
-
+```obj
+    pod 'RZFMDB'
+```
 ##### 创建一个Model，将需要创建数据表的字段作为Model的属性，将自动建表，Model属性列表第一个为 NSInteger 或 int， 将作为数据表的主键 PRIMARY KEY
 
 在Model中添加头文件
